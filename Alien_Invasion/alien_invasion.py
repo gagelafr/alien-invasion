@@ -171,6 +171,7 @@ class AlienIvasion:
             sleep(0.5)
         else:
             self.stats.game_active = False
+            pygame.mouse.set_visible(True)
 
     def create_fleet(self):
         """Create the fleet of aliens."""
